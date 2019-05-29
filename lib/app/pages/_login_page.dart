@@ -20,9 +20,9 @@ class LoginPage extends StatefulWidget {
 class LoginPageState extends State<LoginPage> {
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
   //Login layout Colors
-  final Color backgroundColor1 = Colors.lightGreenAccent;
+  final Color backgroundColor1 = Colors.white30;
   final Color backgroundColor2 = Color(0xFF6f6c7d);
-  final Color highlightColor = Colors.green;
+  final Color highlightColor = Colors.white70;
   final Color foregroundColor = Colors.white;
   final AssetImage logo = new AssetImage("assets/images/full-bloom.png");
   //
